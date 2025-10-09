@@ -299,7 +299,7 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
 .preyecto-rick-and-morty-api{
     background-image: url("../img/proyectos/ryck-and-morty.png");
     height: 220px;
-    background-size: 100%;
+    background-size: 110%;
    background-repeat: no-repeat;
     transition:  0.3s ease;
     position: relative;
@@ -319,7 +319,7 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
 .preyecto-rick-and-morty-api:hover{
     height: 220px;
     background-image: url("../img/proyectos/ryck-and-morty.png");
-    background-size: 110%;
+    background-size: 120%;
     background-repeat: no-repeat;
     position: relative;
  
