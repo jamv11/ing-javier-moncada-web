@@ -10,7 +10,7 @@ gris de fondo: #efefef
 */
 
 *{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     box-sizing: border-box;
     margin: 0;
 
