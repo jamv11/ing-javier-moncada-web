@@ -3,7 +3,7 @@ ScrollReveal().reveal('.tagline-fondo', { distance: '1000px',origin: 'left', dur
 ScrollReveal().reveal('.tagline-title', { distance: '100px', delay: 800,duration: 800 });
 ScrollReveal().reveal('.tagline-sub-title', { distance: '100px', delay: 1000,duration: 800 });
 ScrollReveal().reveal('.tagline-description', { distance: '100px', delay: 1200,duration: 800 });
-ScrollReveal().reveal('.tagline-button', { distance: '100px', delay: 1400,duration: 800 });
+ScrollReveal().reveal('.tagline-button', { distance: '100px', delay: 1400,duration: 600 });
 ScrollReveal().reveal('.tagline-photo', { distance: '100px',origin: 'right', delay: 500,duration: 800 });
 ScrollReveal().reveal('.proyect-1', { distance: '100px',origin: 'bottom', delay: 300,duration: 800 });
 ScrollReveal().reveal('.proyect-2', { distance: '100px',origin: 'bottom', delay: 500,duration: 800 });

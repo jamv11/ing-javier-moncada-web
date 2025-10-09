@@ -10,7 +10,7 @@ gris de fondo: #efefef
 */
 
 *{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     box-sizing: border-box;
     margin: 0;
 
@@ -278,15 +278,22 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
     overflow: hidden;
     
 }
+.article > a{
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
 
 .article__title-container{
     
     height: 220px;
     background-image: url("../img/Caracas.webp");
     background-size: 200%;
+    background-repeat: no-repeat;
     transition:  0.3s ease;
     position: relative;
     transition: 0.5s ease;
+    
 }
 .article__title-container:hover{
     
@@ -298,7 +305,7 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
 
 .article__title-filter{
     padding: 20px 0;
-    background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94, 0.315) 38%, #29385e 100%);
+    background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94, 0.315) 5%, #29385e 90%);
     height: 100%;
     color: #efefef;
     display: flex;
@@ -309,7 +316,7 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
 }
 .article__title-filter:hover{
     padding: 20px 0;
-    background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94, 0.315) 38%, #29385e 100%);
+    background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94, 0.315) 5%, #29385e 90%);
     height: 100%;
     color: #72a9cd;
     font-size: 19px;
@@ -321,6 +328,7 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
 }
 .article__title{
     text-align: center;
+    margin-bottom: 45px;
 }
 .article-description{
     padding: 20px;
@@ -847,7 +855,7 @@ height: 100%;
 
 .container-skills--filter{
 background: #72A9CD;
-background: linear-gradient(337deg, rgba(114, 169, 205, 0.55) 0%, rgba(41, 56, 94, 0.95) 76%);
+background: linear-gradient(337deg, rgba(114, 169, 205, 0.55) 20%, rgba(41, 56, 94, 0.95) 100%);
 padding: 200px 0px 100px 0px ;
 display: flex;
 justify-content:center;
@@ -1064,6 +1072,7 @@ height: 100%;
    
 }
 
+
 .title-container__border{
  margin: 0;
  position: relative;
@@ -1072,6 +1081,59 @@ height: 100%;
 
 }
 
+
+
+.article__title-container{
+  
+    height: 250px;
+
+  
+}
+.article__title-container:hover{ 
+    height: 250px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 599px){
+.article__title-container{
+  
+    height: 150px;
+
+}
+.article__title-container:hover{ 
+    height: 150px;
+}
+
+.article__title{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+}
+
+.article__title-filter{ 
+    background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 18%, rgba(41, 56, 94, 0.315) 0%, #29385e 85%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article__title-filter:hover{
+    background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 18%, rgba(41, 56, 94, 0.315) 0%, #29385e 85%);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.article__title{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.article-description{
+    padding: 10px;
+    background:#29385e;
+    color: #efefef;
+    
+
+}
 .section_title--skills{
     color:#efefef;
     font-size: 35px;
