@@ -719,11 +719,17 @@ box-shadow: -2px 15px 9px -10px rgba(0,0,0,0.22) inset;
     padding-left: 10%;
     padding-right: 10%;
     font-size: 25px;
+    top: 0;
+
 }
 
 .header-container__fondo{
     background-color: #72a9cd00;
     padding: 0;
+    width: 90%;
+    box-shadow: 9px 10px 5px -6px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 9px 10px 5px -6px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 9px 10px 5px -6px rgba(0, 0, 0, 0);
 }
 .header__sub-title{
 
@@ -971,9 +977,12 @@ align-items: center;
 }
 
 .header-container__fondo{
-    width: 100%;
+    width: 90%;
     min-height: 100%;
     padding: 0;
+    box-shadow: 9px 10px 5px -6px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 9px 10px 5px -6px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 9px 10px 5px -6px rgba(0, 0, 0, 0);
 }
 
 .header-container__button{
