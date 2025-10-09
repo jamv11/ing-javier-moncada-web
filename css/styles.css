@@ -208,6 +208,7 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 
 
 }
@@ -295,6 +296,19 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
     transition: 0.5s ease;
     
 }
+.preyecto-rick-and-morty-api{
+    background-image: url("../img/proyectos/ryck-and-morty.png");
+    height: 220px;
+    background-size: 100%;
+   background-repeat: no-repeat;
+    transition:  0.3s ease;
+    position: relative;
+    transition: 0.5s ease;
+    object-fit: contain;
+    transition: 0.5s ease;
+ 
+}
+
 .article__title-container:hover{
     
     height: 220px;
@@ -302,6 +316,15 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
     background-size: 220%;
     position: relative;
 }
+.preyecto-rick-and-morty-api:hover{
+    height: 220px;
+    background-image: url("../img/proyectos/ryck-and-morty.png");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    position: relative;
+ 
+}
+
 
 .article__title-filter{
     padding: 20px 0;
@@ -421,6 +444,7 @@ box-shadow: 1px -1px 9px 3px rgba(0,0,0,0.19);
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     
 }
 .container-skills--filter{
