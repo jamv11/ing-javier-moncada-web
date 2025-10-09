@@ -288,8 +288,8 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
 .article__title-container{
     
     height: 220px;
-    background-image: url("../img/Caracas.webp");
-    background-size: 200%;
+    background-image: url("../img/EN_CONSTRUCCION.png");
+    background-size: 100%;
     background-repeat: no-repeat;
     transition:  0.3s ease;
     position: relative;
@@ -312,8 +312,8 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
 .article__title-container:hover{
     
     height: 220px;
-    background-image: url("../img/Caracas.webp");
-    background-size: 220%;
+    background-image: url("../img/EN_CONSTRUCCION.png");
+    background-size: 110%;
     position: relative;
 }
 .preyecto-rick-and-morty-api:hover{
