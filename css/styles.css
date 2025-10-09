@@ -477,6 +477,14 @@ box-shadow: 1px -1px 9px 3px rgba(0,0,0,0.19);
 
 }
 .footer-list__item{
+    
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    
+    
+}
+.footer-list__item a{
     color: #efefef;
     font-size: 20px;
     font-weight: 500;
@@ -484,8 +492,9 @@ box-shadow: 1px -1px 9px 3px rgba(0,0,0,0.19);
     transition: 0.5s ease;
     margin-bottom: 40px;
     cursor: pointer;
+    transition: 0.5s ease;
 }
-.footer-list__item:hover{
+.footer-list__item a:hover{
     color: #72a9cd;
     font-size: 20px;
     font-weight: 500;
