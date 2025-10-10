@@ -1253,7 +1253,7 @@ height: 100%;
 }
 @keyframes marquesina-expandido-2k {
     from{
-        transform: translateX(135%);
+        transform: translateX(155%);
     }
     to {
         transform: translateX(-100%);
@@ -1262,7 +1262,7 @@ height: 100%;
 
 @keyframes marquesina-pre-full-hd {
     from{
-        transform: translateX(260%);
+        transform: translateX(300%);
     }
     to {
         transform: translateX(-120%);
@@ -1271,7 +1271,7 @@ height: 100%;
 
 @keyframes marquesina {
     from{
-        transform: translateX(145%);
+        transform: translateX(180%);
     }
     to {
         transform: translateX(-100%);
@@ -1280,7 +1280,7 @@ height: 100%;
 
 @keyframes marquesina-responsive-pantalla-pre-hd {
     from{
-        transform: translateX(120%);
+        transform: translateX(130%);
     }
     to {
         transform: translateX(-100%);
@@ -1289,7 +1289,7 @@ height: 100%;
 
 @keyframes marquesina-responsive {
     from{
-        transform: translateX(120%);
+        transform: translateX(150%);
     }
     to {
         transform: translateX(-100%);
@@ -1298,7 +1298,7 @@ height: 100%;
 
 @keyframes marquesina-responsive-tablet {
     from{
-        transform: translateX(160%);
+        transform: translateX(180%);
     }
     to {
         transform: translateX(-100%);
@@ -1307,7 +1307,7 @@ height: 100%;
 
 @keyframes marquesina-responsive-mobile-tablet {
     from{
-        transform: translateX(190%);
+        transform: translateX(260%);
     }
     to {
         transform: translateX(-100%);
@@ -1316,7 +1316,7 @@ height: 100%;
 
 @keyframes marquesina-responsive-mobile {
     from{
-        transform: translateX(270%);
+        transform: translateX(300%);
     }
     to {
         transform: translateX(-100%);
