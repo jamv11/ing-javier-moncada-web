@@ -592,7 +592,7 @@ box-shadow: -2px 15px 9px -10px rgba(0,0,0,0.22) inset;
 }
 
 .header__principal-title{
-    font-size: 53px;
+    font-size: 49px;
 }
 .header__sub-title{
     font-size: 23px;
@@ -621,6 +621,14 @@ box-shadow: -2px 15px 9px -10px rgba(0,0,0,0.22) inset;
     
         animation: marquesina-pre-full-hd 19s linear infinite;
     }
+    .header-container__fondo{
+    padding: 50px 50px 50px 20%;
+    .header__principal-title{
+    font-size: 49px;
+}
+
+}
+
   
 }
 @media screen and (min-width: 1025px) and (max-width: 1279px){
