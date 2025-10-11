@@ -688,9 +688,9 @@ box-shadow: -2px 15px 9px -10px rgba(0,0,0,0.22) inset;
 
 @media screen and (min-width: 721px) and (max-width: 1024px){
   
-    body {
+    /* body {
     overflow: hidden;
-    }
+    } */
     /* header */
 
         .header-nav{
@@ -716,13 +716,13 @@ box-shadow: -2px 15px 9px -10px rgba(0,0,0,0.22) inset;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
     
 }
 
     .header-container__presentation{
     padding: 50px 0px 50px 0px;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -733,7 +733,7 @@ box-shadow: -2px 15px 9px -10px rgba(0,0,0,0.22) inset;
 
 .header-container__profile-photo{
     margin: 50px 0;
-    width: 100%;
+    max-width: 100%;
 }
 
     .header__principal-title{
@@ -753,7 +753,7 @@ box-shadow: -2px 15px 9px -10px rgba(0,0,0,0.22) inset;
 .header-container__fondo{
     background-color: #72a9cd00;
     padding: 0;
-    width: 90%;
+    max-width: 90%;
     box-shadow: 9px 10px 5px -6px rgba(0, 0, 0, 0);
     -webkit-box-shadow: 9px 10px 5px -6px rgba(0, 0, 0, 0);
     -moz-box-shadow: 9px 10px 5px -6px rgba(0, 0, 0, 0);
@@ -816,7 +816,7 @@ box-shadow: -2px 15px 9px -10px rgba(0,0,0,0.22) inset;
 }
 
 .section-container__title{
-    width: 270px;
+    max-width: 270px;
 }
 
 /* skill */
@@ -844,7 +844,7 @@ height: 100%;
 }
 
 .title-container{
-    width: 100%;
+    max-width: 100%;
     height: 0px;
     display: flex;
     justify-content: center;
@@ -948,9 +948,10 @@ align-items: center;
 }
 
 @media screen and (min-width: 360px) and (max-width: 720px){
-    body {
-    overflow: hidden;
-    }
+     body {
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    } 
     .header-nav{
     padding: 20px 0px 20px 0px;
     }
