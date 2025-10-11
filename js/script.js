@@ -27,16 +27,17 @@ if(mediaQuery){
     ScrollReveal().reveal('.proyect-3', { distance: '100px',origin: 'bottom', delay: 700,duration: 800 });
     ScrollReveal().reveal('.proyect-4', { distance: '100px',origin: 'bottom', delay: 900,duration: 800 });
     ScrollReveal().reveal('.tagline-title-skills', { distance: '100px',origin: 'left', delay: 700,duration: 700 });
-/* 
-    ScrollReveal().reveal('.headline');
-    ScrollReveal().reveal('.tagline-fondo', { distance: '0px',origin: 'left', duration: 800});
-    ScrollReveal().reveal('.tagline-title', { distance: '100px', delay: 800,duration: 800 });
-    ScrollReveal().reveal('.tagline-description', { distance: '100px', delay: 1000,duration: 800 });
-    ScrollReveal().reveal('.tagline-button', { distance: '100px', delay: 200,duration: 400 });
+
+/*     ScrollReveal().reveal('.headline');
+    ScrollReveal().reveal('.tagline-fondo', { distance: '0px',origin: 'left', duration: 0});
+    ScrollReveal().reveal('.tagline-photo', { distance: '0px',origin: 'top', delay: 0,duration: 0 });
+    ScrollReveal().reveal('.tagline-title', { distance: '0px', delay: 0,duration: 0 });
+    ScrollReveal().reveal('.tagline-description', { distance: '0px', delay: 0,duration: 0 });
+    ScrollReveal().reveal('.tagline-button', { distance: '0px', delay: 0,duration: 0 });
     ScrollReveal().reveal('.tagline-sub-title', { distance: '0px', delay: 0,duration: 0,duration: 0 });
-    ScrollReveal().reveal('.proyect-1', { distance: '100px',origin: 'bottom', delay: 300,duration: 800 });
-    ScrollReveal().reveal('.proyect-2', { distance: '100px',origin: 'bottom', delay: 500,duration: 800 });
-    ScrollReveal().reveal('.proyect-3', { distance: '100px',origin: 'bottom', delay: 700,duration: 800 });
-    ScrollReveal().reveal('.proyect-4', { distance: '100px',origin: 'bottom', delay: 900,duration: 800 });
-    ScrollReveal().reveal('.tagline-title-skills', { distance: '100px',origin: 'left', delay: 700,duration: 700 }); */
+    ScrollReveal().reveal('.proyect-1', { distance: '0px',origin: 'bottom', delay: 0,duration: 0 });
+    ScrollReveal().reveal('.proyect-2', { distance: '0px',origin: 'bottom', delay: 0,duration: 0 });
+    ScrollReveal().reveal('.proyect-3', { distance: '0px',origin: 'bottom', delay: 0,duration: 0 });
+    ScrollReveal().reveal('.proyect-4', { distance: '0px',origin: 'bottom', delay: 0,duration: 0 });
+    ScrollReveal().reveal('.tagline-title-skills', { distance: '0px',origin: 'left', delay: 0,duration: 0 }); */
 }

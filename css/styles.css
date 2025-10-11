@@ -688,6 +688,9 @@ box-shadow: -2px 15px 9px -10px rgba(0,0,0,0.22) inset;
 
 @media screen and (min-width: 721px) and (max-width: 1024px){
   
+    body {
+    overflow: hidden;
+    }
     /* header */
 
         .header-nav{
@@ -945,7 +948,9 @@ align-items: center;
 }
 
 @media screen and (min-width: 360px) and (max-width: 720px){
-
+    body {
+    overflow: hidden;
+    }
     .header-nav{
     padding: 20px 0px 20px 0px;
     }
