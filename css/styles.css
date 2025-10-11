@@ -1051,6 +1051,9 @@ align-items: center;
 
 
 /* Proyects */
+.section-container{
+    padding: 50px 50px 100px 50px;
+}
 
 .section-title{
 
@@ -1127,7 +1130,12 @@ height: 100%;
 }
 
 @media screen and (min-width: 360px) and (max-width: 599px){
-.article__title-container{
+
+.section-container{
+    padding: 50px 50px 100px 50px;
+}
+
+    .article__title-container{
   
     height: 150px;
 
