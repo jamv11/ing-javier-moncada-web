@@ -6,12 +6,12 @@ ScrollReveal().reveal('.tagline-title', { distance: '100px', delay: 800,duration
 ScrollReveal().reveal('.tagline-sub-title', { distance: '100px', delay: 1000,duration: 800 });
 ScrollReveal().reveal('.tagline-description', { distance: '100px', delay: 1200,duration: 800 });
 ScrollReveal().reveal('.tagline-button', { distance: '100px', delay: 1400,duration: 300 });
-ScrollReveal().reveal('.tagline-photo', { distance: '100px',origin: 'right', delay: 500,duration: 800 });
-ScrollReveal().reveal('.proyect-1', { distance: '100px',origin: 'bottom', delay: 300,duration: 800 });
-ScrollReveal().reveal('.proyect-2', { distance: '100px',origin: 'bottom', delay: 500,duration: 800 });
-ScrollReveal().reveal('.proyect-3', { distance: '100px',origin: 'bottom', delay: 700,duration: 800 });
-ScrollReveal().reveal('.proyect-4', { distance: '100px',origin: 'bottom', delay: 900,duration: 800 });
-ScrollReveal().reveal('.tagline-title-skills', { distance: '100px',origin: 'left', delay: 700,duration: 700 });
+ScrollReveal().reveal('.tagline-photo', { distance: '100px',origin: 'right', delay: 500,duration: 800});
+ScrollReveal().reveal('.proyect-1', { distance: '100px',origin: 'bottom', delay: 300,duration: 800,reset: true });
+ScrollReveal().reveal('.proyect-2', { distance: '100px',origin: 'bottom', delay: 500,duration: 800,reset: true });
+ScrollReveal().reveal('.proyect-3', { distance: '100px',origin: 'bottom', delay: 700,duration: 800,reset: true });
+ScrollReveal().reveal('.proyect-4', { distance: '100px',origin: 'bottom', delay: 900,duration: 800,reset: true});
+ScrollReveal().reveal('.tagline-title-skills', { distance: '100px',origin: 'left', delay: 700,duration: 700,reset: true });
 //ScrollReveal().reveal('.punchline', { delay: 2000 });
 
 if(mediaQuery){
