@@ -12,9 +12,10 @@ ScrollReveal().reveal('.proyect-2', { distance: '100px',origin: 'bottom', delay:
 ScrollReveal().reveal('.proyect-3', { distance: '100px',origin: 'bottom', delay: 700,duration: 800,reset: true });
 ScrollReveal().reveal('.proyect-4', { distance: '100px',origin: 'bottom', delay: 900,duration: 800,reset: true});
 ScrollReveal().reveal('.tagline-title-skills', { distance: '100px',origin: 'left', delay: 700,duration: 700,reset: true });
-//ScrollReveal().reveal('.punchline', { delay: 2000 });
 
-if(mediaQuery){
+
+
+if(mediaQuery.matches){
     ScrollReveal().reveal('.headline');
     ScrollReveal().reveal('.tagline-photo', { distance: '100px',origin: 'top', delay: 400,duration: 500 });
     ScrollReveal().reveal('.tagline-fondo', { distance: '0px',origin: 'top', duration: 0});
