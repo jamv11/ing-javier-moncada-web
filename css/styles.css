@@ -389,6 +389,7 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
     height: 115px;
     text-align: justify;
     overflow-y: auto;
+    scrollbar-color: rgba(255, 255, 255, 0.295) transparent;
 }
 .article-description__skills-title{
     margin: 15px 0;
