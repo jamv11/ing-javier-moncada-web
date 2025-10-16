@@ -273,6 +273,7 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
 }
 .article{
     width: 350px;
+    max-height: 100%;
     box-shadow: 9px 10px 5px -6px rgba(0,0,0,0.33);
     -webkit-box-shadow: 9px 10px 5px -6px rgba(0,0,0,0.33);
     -moz-box-shadow: 9px 10px 5px -6px rgba(0,0,0,0.33);
@@ -287,7 +288,7 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
 
 .article__title-container{
     
-    height: 220px;
+    height: 221px;
     background-image: url("../img/EN_CONSTRUCCION.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -298,6 +299,18 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
 }
 .preyecto-rick-and-morty-api{
     background-image: url("../img/proyectos/ryck-and-morty.png");
+    height: 220px;
+    background-size: 110%;
+   background-repeat: no-repeat;
+    transition:  0.3s ease;
+    position: relative;
+    transition: 0.5s ease;
+    object-fit: contain;
+    transition: 0.5s ease;
+ 
+}
+.preyecto-registro-proveedores{
+    background-image: url("../img/proyectos/registro-proveedores-crud.png");
     height: 220px;
     background-size: 110%;
    background-repeat: no-repeat;
@@ -325,6 +338,14 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
  
 }
 
+.preyecto-registro-proveedores:hover{
+    height: 220px;
+    background-image: url("../img/proyectos/registro-proveedores-crud.png");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    position: relative;
+ 
+}
 
 .article__title-filter{
     padding: 20px 0;
@@ -362,6 +383,13 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
 .article-description__text{
     text-align: justify;
 }
+
+.article-description__text--scroll{
+    
+    height: 115px;
+    text-align: justify;
+    overflow-y: auto;
+}
 .article-description__skills-title{
     margin: 15px 0;
     border-bottom: 2px solid #72a9cd;
@@ -386,6 +414,10 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
 .article-description__skill--JS{
   background-color: #f0db4f;
   color: #000000;  
+}
+
+.article-description__skill--BOOTSTRAP{
+   background-color: #712cf9; 
 }
 
 /* skills */
