@@ -321,6 +321,18 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
     transition: 0.5s ease;
  
 }
+.catalogo-peliculas{
+    background-image: url("../img/proyectos/catalogo-peliculas.png");
+    height: 220px;
+    background-size: 110%;
+   background-repeat: no-repeat;
+    transition:  0.3s ease;
+    position: relative;
+    transition: 0.5s ease;
+    object-fit: contain;
+    transition: 0.5s ease;
+ 
+}
 
 .article__title-container:hover{
     
@@ -341,6 +353,15 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
 .preyecto-registro-proveedores:hover{
     height: 220px;
     background-image: url("../img/proyectos/registro-proveedores-crud.png");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    position: relative;
+ 
+}
+
+.catalogo-peliculas:hover{
+    height: 220px;
+    background-image: url("../img/proyectos/catalogo-peliculas.png");
     background-size: 120%;
     background-repeat: no-repeat;
     position: relative;
@@ -421,6 +442,16 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
 
 .article-description__skill--BOOTSTRAP{
    background-color: #712cf9; 
+}
+
+.article-description__skill--REACT{
+ background-color: #00d8ff;
+ color: #000000;
+}
+
+.article-description__skill--TAILWIND{
+ background-color: #38bdf8;
+ color: #000000;
 }
 
 /* skills */
