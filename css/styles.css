@@ -214,12 +214,12 @@ background: linear-gradient(180deg, rgba(41, 56, 94, 0.315) 0%, rgba(41, 56, 94,
 }
 
 .header-container__profile-photo > img{
-    width: 70%;
+    width: 60%;
+    height: 60%;
 }
 
 .header-container__profile-photo img{
-    max-width: 600px;
-    height: auto;
+    max-width: 600px;  
     border: #72a9cd solid 4px;
     border-radius:  50%;
     object-fit: cover;
